@@ -1,0 +1,32 @@
+.btn{
+    color: black;
+    border-radius: 50%;
+    
+}
+.grid-container {
+    display: grid;
+    grid-template-columns:80px 80px 80px;
+    grid-template-rows: auto auto;
+    padding: 2px;
+    justify-content: center;
+    margin: 2px;
+  }
+  .grid-item {
+    background-color:wheat;
+       border: 1px solid #161515cc;
+    padding: 10px;
+    font-size:20 px;
+    text-align: center;
+
+  }
+  #result{
+      grid-column: 2/4;
+      grid-row: 7;
+  }
+  .input{
+      border: 2px solid black;
+      padding: 10px;
+      border-radius: 40%;
+      box-sizing: border-box;
+      box-shadow: lightcoral;
+  }
