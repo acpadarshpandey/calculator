@@ -19,6 +19,9 @@ class Calculator extends React.Component {
         }
         catch (Error) {
             alert(Error);
+            this.setState({
+                result: ""
+            })
             
 
 
